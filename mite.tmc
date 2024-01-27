@@ -1,0 +1,171 @@
+<[file][][]
+    <[object][][]
+        <[int][Version][220]>
+        <[vec32array][ContactSpheres][ (0.875 0.000 -0.98 0.172) (-0.232 0.946 -0.934 0.172) (-0.232 -0.946 -0.934 0.172) ]>
+        <[string8][ICAO][MITE]>
+        <[string8][DisplayName][Mooney Mite]>
+        <[string8][DisplayNameFull][Mooney M-18C "Mite"]>
+        <[localized_text_list][Descriptions][]
+            <[localized_text][][]
+                <[string8][Language][en]>
+                <[string8][Text][The Mooney M-18 "Mite" is a low-wing, single-place monoplane with retractable, tricycle landing gear. The Mite was designed by Al Mooney and was intended as a personal airplane marketed to fighter pilots returning from World War II. Made by Krzysztof Kaniewski. 3D model: FTLX Designs.]>
+            >
+            <[localized_text][][]
+                <[string8][Language][de]>
+                <[string8][Text][Die Mooney M-18 "Mite" ist ein Tiefdecker-Einsitzer mit einziehbarem Dreirad-Fahrwerk. Die Mite wurde von Al Mooney entworfen und war als ein persönliches Flugzeug gedacht, das an Kampfpiloten vermarktet wurde, die aus dem Zweiten Weltkrieg zurückkehrten. Hergestellt von Krzysztof Kaniewski. 3D-Modell: FTLX Designs.]>
+            >			
+        >
+        <[float64][MaximumTakeoffMass][354.0]>
+        <[float64][WingSpan]          [8.2]>
+        <[uint]   [Year]              [1947]>
+        <[uint]   [UnitsBuilt]        [283]>
+        <[uint]   [EngineCount]       [1]>
+        <[float64][EnginePower]       [48470]>
+        <[float64][MinimumAirspeed]   [23.0]>
+        <[float64][ApproachAirspeed]  [29.9]>
+        <[float64][CruiseAirspeed]    [64.4]>
+        <[float64][CruiseAltitude]    [3352.8]>
+        <[float64][CruiseSpeed]       [67.9]>
+        <[float64][MaximumAirspeed]   [71.5]>
+        <[float64][MaximumAltitude]   [5900.0]>
+        <[float64][MaximumSpeed]      [71.5]>
+        <[float64][MaximumRange]      [708000.0]>
+        <[tmvector2d][FlapAirspeedRange][ 23.0 42.5 ]>
+        <[tmvector2d][NormalAirspeedRange][ 23.0 57.0 ]>
+        <[tmvector2d][CautionAirspeedRange][ 57.0 71.5 ]>
+        <[tmvector2d][FlapSettings][ (0.0 0.0) (1.0 0.279253) ]>
+        <[string8][FlapQualifier][ ]>
+        <[string8][Tags][ airplane historical piston flaps general_aviation retractable_gear ]>
+        <[string8][Pilot][]>
+    >
+>
+
+// General characteristics
+
+// Crew: one pilot
+// Capacity: 260 lb (118 kg)
+// Length: 18 ft (5.5 m)
+// Wingspan: 26 ft 10 in (8.18 m)
+// Height: 6 ft 2.5 in (1.892 m) [13]
+// Wing area: 95 sq ft (8.8 m2) [13]
+// Airfoil: NACA 64A215
+// Empty weight: 520 lb (236 kg)
+// Gross weight: 780 lb (354 kg)
+// Max takeoff weight: 780 lb (354 kg)
+// Powerplant: 1 × Continental A65 wooden propeller, 65 hp (48 kW)
+
+// Performance
+
+// Maximum speed: 138 mph (222 km/h, 120 kn)
+// Cruise speed: 125 mph (201 km/h, 109 kn)
+// Stall speed: 43 mph (69 km/h, 37 kn)
+// Range: 440 mi (708 km, 382 nmi)
+// Service ceiling: 19,400 ft (5,900 m)
+// Rate of climb: 1,090 ft/min (5.5 m/s)
+// Power/mass: 12 lb/hp (0.14 kW/kg)
+
+// Cockpit type: General Aviation
+// Vso_kts: 46.0 stall speed in landing configuration
+// Vs_kts: 55.0 stall speed
+// Vfe1_kts: 85.0 flaps extended 1st dep
+// Vfem_kts: 85.0 flaps extended max
+// Vle_kts: 109.0 maximum landing-gear extended speed
+// Vno_kts: 114.0 maximum structural cruising speed or maximum speed for normal operations
+// Vne_kts: 143.0 never exeed speed
+// V_ref_ms:  reference speed for final approach, normally 1.3Vso
+// Empty mass [lb]: 520 [kg]: 235.9
+// Fuel mass [lb]: 72 [kg]: 32.7 => about [L]: 41.9
+// max mass [lb]: 850 [kg]: 385.6
+// model mass [lb]: 592 [kg]: 268.5
+// load G: -3.0 to 3.8
+// Ground altitude: 0.4728 3.18 deg
+// Propeller 0 [1.546 0.000 -0.091]  blades 2 CCW  radius [m] 0.823 mass [kg] 10.8
+// Max HP power: 65.0 (48.5 kW)
+// Stall warning equiped
+// Radio COMM equiped
+// Stall warning AOA 10.0
+//   no|area|R0|R1|T0|T1|span|Croot|Ctip|x|y|z|fl0|fl1|flb|L_R|name|description
+//   0|0.152|Clark-Y (good propeller).afl ||||0.823|0.114|0.254|1.476|-0.411|0.000||||R|Propeller|
+//   8|1.101|NACA_64-215_root.afl  CHECK IT||||0.722|1.524|1.524|-0.317|0.360|-0.545|ailn1|flap1||L|LeftWing|
+//   9|1.101|NACA_64-215_root.afl  CHECK IT||||0.722|1.524|1.524|-0.317|-0.360|-0.545|ailn1|flap1||R|RightWing|
+//   10|3.229|NACA_64-215_root.afl  CHECK IT||naca_2412_tip.afl||3.395|1.256|0.646|-0.224|2.404|-0.302|ailn1|flap1||L|LeftWing2|
+//   11|3.229|NACA_64-215_root.afl  CHECK IT||naca_2412_tip.afl||3.395|1.256|0.646|-0.224|-2.404|-0.302|ailn1|flap1||R|RightWing2|
+//   16|0.714|NACA 0009 (symmetrical).afl ||||1.280|0.710|0.405|-3.054|0.639|0.000|elev1|elev2||L|LeftStabilizer|
+//   17|0.714|NACA 0009 (symmetrical).afl ||||1.280|0.710|0.405|-3.054|-0.639|0.000|elev1|elev2||R|RightStabilizer|
+//   18|0.709|NACA 0009 (symmetrical).afl ||||1.122|0.914|0.351|-3.141|0.000|0.437|rudd1|||R|VertStabilizer1|
+//   parts no|radius|name|size x*y*z|Cd|description|
+//   56|2.0|Fuselage|4.138 0.642 1.074|0.104999997|Fuselage
+//   57|1.500000000|MiscBody1|0.335 0.748 0.213|0.129999995|Nose & Spinner
+//   77|0.500000000|Nacelle1|0.207 0.218 0.209|0.071999997|leftenginenacelle
+//   gear no|name|X|Y|Z|Type|Fraction|Length|radius|retract|SteerLo|SteerHi|weight|width
+//   gear 0|FrontWheelHull|0.951|0.000|-0.469|2|0.352|0.488|0.171|1.000|0.4363|0.4363|9.2|0.122
+//   gear 1|LeftWheelHull|-0.158|0.826|-0.442|2|0.324|0.488|0.171|1.000|0.0000|0.0000|9.2|0.122
+//   gear 2|RightWheelHull|-0.155|-0.826|-0.442|2|0.323|0.488|0.171|1.000|0.0000|0.0000|9.2|0.122
+// CG range: 0.22 to 0.14
+// Rigidbody: Fuselage 163.1 kg at 0.180
+// Rigidbody: 8 LeftWing 8.5 kg at -0.317
+// Rigidbody: 9 RightWing 8.5 kg at -0.317
+// Rigidbody: 10 LeftWing2 25.0 kg at -0.224
+// Rigidbody: 11 RightWing2 25.0 kg at -0.224
+// Gearbody: 0 FrontWheelHull 9.2 kg at 0.951
+// Gearbody: 1 LeftWheelHull 9.2 kg at -0.158
+// Gearbody: 2 RightWheelHull 9.2 kg at -0.155
+// CG (fuselage): 0.180 (plane) 0.069 (delta) 0.067
+// Plane ref: undefined
+//   empty craft 235.9 kg at 0.180216
+//   fuel tank #1 35.9 kg at -0.429384
+//   fuel tank #2 0.5 kg at 1.500000
+//   fuel tank #3 0.5 kg at 1.500000
+//   fuel tank #4 0.5 kg at 1.500000
+//   fuel tank #5 0.5 kg at 1.500000
+//   fuel tank #6 0.5 kg at 1.500000
+//   fuel tank #7 0.5 kg at 1.500000
+//   fuel tank #8 0.5 kg at 1.500000
+//   fuel tank #9 0.5 kg at 1.500000
+//   pax 124.7 kg at 0.122304
+//   bags 20.0 kg at -0.283080
+// Elevator -13.0 to 25.0 width 0.05 0.34 <[float64][Scaling][2.2918]>
+// Elevator2 -13.0 to 25.0 width 0.34 0.50 <[float64][Scaling][2.2918]>
+// Aileron -7.0 to 15.500000000 width 0.30 0.35 <[float64][Scaling][3.6965]>
+// Rudder -18.0 to 20.0 width 0.20 0.42 <[float64][Scaling][3.0156]>
+// Flap 0.0-16.0 time NaN width 0.19 0.25 <[float64][Scaling][3.5810]>
+// Flap2 0.0-16.0 width 0.17 0.19 <[float64][Scaling][3.5810]>
+//-------------------------------------------------------
+// Mooney M18C v1.0.2 empty mass [kg] :235.9 fuelled [kg] :268.5 max [kg] :385.6
+//-------------------------------------------------------
+// No 0 FrontWheelHull single  Retracts (1.00 sec) Steering (25.00/25.00)
+//    Fraction weight: 0.35236 kg :94.6
+// Pivot lon lat vert: 0.951360 0.000000 -0.469392
+// Extended angles   : -9.0 0.0 0.0  lon lat axi
+// Normal angles     : -9.0 0.0 0.0  lon lat axi
+// Retracted angles  : -95.0 0.0 0.0  lon lat axi
+// Length [m]: 0.4877 Radius [m]: 0.1707 Semi-width [m]: 0.0610
+// Strut compress [m]: 0.061 
+// Dep_rat: NaN Scon: 2202.760253906
+// Deflection [m]- zero load : 0.0414 empty :0.0030 max :0.0061
+// Damping constants (lb/(ft/s)) :220.276031494 kg/(m/s) : 327.8068
+//-------------------------------------------------------
+// No 1 LeftWheelHull single  Retracts (1.00 sec) 
+// Brakes   Fraction weight: 0.32417 kg :87.0
+// Pivot lon lat vert: -0.158112 0.826008 -0.441960
+// Extended angles   : -9.0 -9.0 0.0  lon lat axi
+// Normal angles     : -9.0 -9.0 0.0  lon lat axi
+// Retracted angles  : -11.0 80.0 0.0  lon lat axi
+// Length [m]: 0.4877 Radius [m]: 0.1707 Semi-width [m]: 0.0610
+// Strut compress [m]: 0.030 
+// Dep_rat: NaN Scon: 2202.760253906
+// Deflection [m]- zero load : 0.0381 empty :0.0030 max :0.0061
+// Damping constants (lb/(ft/s)) :220.276031494 kg/(m/s) : 327.8068
+//-------------------------------------------------------
+// No 2 RightWheelHull single  Retracts (1.00 sec) 
+// Brakes   Fraction weight: 0.32347 kg :86.9
+// Pivot lon lat vert: -0.155064 -0.826008 -0.441960
+// Extended angles   : -9.0 9.0 0.0  lon lat axi
+// Normal angles     : -9.0 9.0 0.0  lon lat axi
+// Retracted angles  : -11.0 -80.0 0.0  lon lat axi
+// Length [m]: 0.4877 Radius [m]: 0.1707 Semi-width [m]: 0.0610
+// Strut compress [m]: 0.030 
+// Dep_rat: NaN Scon: 2202.760253906
+// Deflection [m]- zero load : 0.0380 empty :0.0030 max :0.0061
+// Damping constants (lb/(ft/s)) :220.276031494 kg/(m/s) : 327.8068
+//-------------------------------------------------------

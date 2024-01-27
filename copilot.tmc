@@ -1,0 +1,47 @@
+<[file][][]
+    <[hints][][]
+        // Mooney M-18C "Mite"
+        <[float64][MaximumTakeOffMass][385.6]>
+        <[float64][WingSpan][8.18]>
+        <[float64][WingArea][8.8]>
+        <[float64][HeightOffset][-1.122]>
+        <[float64][NoseWheelPositionX][0.875]>
+        <[float64][ApproachSpeed][29.9]>
+        <[float64][PatternSpeed][45.0]>
+        <[float64][InitialClimbSpeed][51.4]>
+        <[float64][MaximumGearExtensionSpeed][54.5]>
+        <[copilot_flap_info_list][FlapInfo][]
+           <[copilot_flap_info][FlapUp][]
+              <[float64][FlapPosition][0.00]>
+              <[float64][MinimumSpeed][33.0]>
+              <[float64][OptimumSpeed][43.0]>
+              <[float64][MaximumSpeed][71.5]>
+              <[bool][TakeOff][true]>
+              <[bool][Landing][false]>
+           >
+           <[copilot_flap_info][FlapFull][]
+              <[float64][FlapPosition][1.00]>
+              <[float64][MinimumSpeed][23.0]>
+              <[float64][OptimumSpeed][23.0]>
+              <[float64][MaximumSpeed][42.5]>
+              <[bool][TakeOff][false]>
+              <[bool][Landing][true]>
+           >
+        >
+        <[int][EngineCount][1]>
+        <[string8][AutoPilotType][BASIC]>
+        <[bool][Piston][true]>
+        <[bool][ParkingBrake][true]>
+        <[bool][RudderTrimRequired][true]>
+        <[float64][PitchTrimTakeOff][-0.02]>
+        <[float64][RudderSteeringGain][0.5]>
+        <[float64][RudderCrossWind][0.8]>
+        <[float64][AileronGain][0.4]>
+        <[float64][ElevatorGain][0.4]>
+        <[float64][RudderGain][0.4]>
+        <[float64][FlareHeightScaling][0.5]>
+        <[float64][FlareExpectedNoseDrop][0.1]>
+        <[float64][GainSideSlipRoll][2.0]>
+        <[float64][StarterMaximumTime][3.0]>
+    >
+>
