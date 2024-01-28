@@ -3,9 +3,10 @@
     //-------------------------------------
     // Plane: Mooney M-18C "Mite" for Aerofly FS4
     // Compilation: Krzysztof Kaniewski
-    // 3D model: FTLX Designs
+    // 3D model: FTLX Designs/Tim Conrad
     // LEGAL
-    // This file is FREEWARE. It should not harm your computer, but you install it at your own risk. Feel free to copy, modify or distribute it, but if you do, please give me and the original author(s) credit for our modifications. You may not use it for any commercial purposes.
+    // This file is FREEWARE. It should not harm your computer, but you install it at your own risk. 
+	// Feel free to copy, modify or distribute it, but if you do, please give me and the original author(s) credit for our modifications. You may not use it for any commercial purposes.
     //
     // Date: Nov 2022; May 2023; Jan 2024
     //-------------------------------------
@@ -205,10 +206,10 @@
                 <[float64][LimitLengthMax][0.17]>
                 <[float64][LimitSpring][10000000.0]>
                 <[float64][LimitDamping][50000.0]>
-                <[float64][ForceExtended][1000.0]>
-                <[float64][ForceCompressed][100000.0]>
-                <[float64][DampingExtended][100.0]>
-                <[float64][DampingCompressed][20000.0]>
+                <[float64][ForceExtended][2000.0]>
+                <[float64][ForceCompressed][500000.0]>
+                <[float64][DampingExtended][5000.0]>
+                <[float64][DampingCompressed][50000.0]>
             >
             <[collisionhull][CollisionFrontGear][]
                 <[string8][Body][FrontGearLower]>
@@ -253,14 +254,14 @@
                 <[string8][Body1][LeftGearLower]>
                 <[tmvector3d][R0][ -0.15 0.88 -0.45 ]>
                 <[tmvector3d][R1][ -0.09 0.91 -0.77 ]>
-                <[float64][LimitLengthMin][0.27]>
+                <[float64][LimitLengthMin][0.29]>
                 <[float64][LimitLengthMax][0.325]>
                 <[float64][LimitSpring][10000000.0]>
                 <[float64][LimitDamping][50000.0]>
-                <[float64][ForceExtended][1000.0]>
-                <[float64][ForceCompressed][100000.0]>
-                <[float64][DampingExtended][100.0]>
-                <[float64][DampingCompressed][20000.0]>
+                <[float64][ForceExtended][2000.0]>
+                <[float64][ForceCompressed][500000.0]>
+                <[float64][DampingExtended][5000.0]>
+                <[float64][DampingCompressed][50000.0]>
             >
             <[collisionhull][CollisionLeftGear][]
                 <[string8][Body][LeftGearLower]>
@@ -305,14 +306,14 @@
                 <[string8][Body1][RightGearLower]>
                 <[tmvector3d][R0][ -0.15 -0.88 -0.45 ]>
                 <[tmvector3d][R1][ -0.09 -0.91 -0.77 ]>
-                <[float64][LimitLengthMin][0.27]>
+                <[float64][LimitLengthMin][0.29]>
                 <[float64][LimitLengthMax][0.325]>
                 <[float64][LimitSpring][10000000.0]>
                 <[float64][LimitDamping][50000.0]>
-                <[float64][ForceExtended][1000.0]>
-                <[float64][ForceCompressed][100000.0]>
-                <[float64][DampingExtended][100.0]>
-                <[float64][DampingCompressed][20000.0]>
+                <[float64][ForceExtended][2000.0]>
+                <[float64][ForceCompressed][500000.0]>
+                <[float64][DampingExtended][5000.0]>
+                <[float64][DampingCompressed][50000.0]>
             >
             <[collisionhull][CollisionRightGear][]
                 <[string8][Body][RightGearLower]>
@@ -672,10 +673,6 @@
 
             // control inputs
 
-            <[input_control][CheckInput][]
-                <[tmvector2d][Range][ 0.0 1.0 ]>
-                <[string8][Message][Controls.HookRelease]>
-            >
             <[input_lever][ThrottleInput][]
                 <[string8][Message][Controls.Throttle1]>
                    <[tmvector2d][Range][0.0 1.0]>
@@ -793,16 +790,6 @@
 
             // servos
 
-            <[servolinear][ServoCheck][]
-                <[string8][Input][CheckInput.Output]>
-                <[float64][OutputSpeed][1.0]>
-                <[float64][Position][0.0]>
-                <[float64array][InputPosition][ 0.0 1.0 ]>
-                <[float64array][OutputPosition][ 0.0 1.0 ]>
-            >
-            <[output_free][ServoCheckOutput][]
-                <[string8][Input][ServoCheck.Output]>
-            >
             <[servoclassic][ServoBrake][]
                 <[string8][Input][BrakeInput.Output]>
                 <[float64][Speed][10.0]>
@@ -1596,7 +1583,7 @@
                 <[uint32][AngleID][FrontWheelHull.RotationAngle]>
                 <[uint32][GroundID][FrontWheelHull.Ground]>
                 <[uint32][DeformationID][FrontWheelHull.Deformation]>
-                <[float64][Radius][0.171]>
+                <[float64][Radius][0.172]>
                 <[float64][RimRadius][0.086]>
                 <[tmvector3d][Axis][0.0 1.0 0.0]>
                 <[tmvector3d][Pivot][0.874550 0.0 -0.979208]> 
@@ -1623,7 +1610,7 @@
                 <[uint32][AngleID][LeftWheelHull.RotationAngle]>
                 <[uint32][GroundID][LeftWheelHull.Ground]>
                 <[uint32][DeformationID][LeftWheelHull.Deformation]>
-                <[float64][Radius][0.171]>
+                <[float64][Radius][0.172]>
                 <[float64][RimRadius][0.086]>
                 <[tmvector3d][Axis][0.0 0.996779 0.080197]>
                 <[tmvector3d][Pivot][-0.2314 0.9493 -0.9327]>
@@ -1650,7 +1637,7 @@
                 <[uint32][AngleID][RightWheelHull.RotationAngle]>
                 <[uint32][GroundID][RightWheelHull.Ground]>
                 <[uint32][DeformationID][RightWheelHull.Deformation]>
-                <[float64][Radius][0.171]>
+                <[float64][Radius][0.172]>
                 <[float64][RimRadius][0.086]>
                 <[tmvector3d][Axis][0.0 0.994522 -0.104530]>
                 <[tmvector3d][Pivot][-0.2314 -0.9493 -0.9327]>
