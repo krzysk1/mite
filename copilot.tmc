@@ -28,9 +28,10 @@
               <[bool][Landing][true]>
            >
         >
+        <[string8][AutoPilotType][]>
         <[int][EngineCount][1]>
-        <[string8][AutoPilotType][BASIC]>
         <[bool][Piston][true]>
+        <[bool][GeneralAviation][true]>
         <[bool][ParkingBrake][true]>
         <[bool][RudderTrimRequired][true]>
         <[float64][PitchTrimTakeOff][-0.02]>

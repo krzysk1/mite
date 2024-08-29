@@ -1759,6 +1759,7 @@
             >
             <[graphics_input][PanelLightingInput][]
                 <[uint32][InputID][PanelLightOn.Output]>
+                <[float64][Scaling][0.4]>
              >
              <[graphics_color][PanelLighting][]
                 <[string8][Input][PanelLightingInput.Output]>
