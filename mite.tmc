@@ -1,19 +1,23 @@
 <[file][][]
-    <[object][][]
-        <[int][Version][220]>
-        <[vec32array][ContactSpheres][ (0.875 0.000 -0.98 0.172) (-0.232 0.946 -0.934 0.172) (-0.232 -0.946 -0.934 0.172) ]>
-        <[string8][ICAO][MITE]>
+    <[modelinformation][][]
+        <[int32][Version][220]>
+        <[list_vector4_float64][ContactSpheres][ (0.875 0.000 -0.98 0.172) (-0.232 0.946 -0.934 0.172) (-0.232 -0.946 -0.934 0.172) ]>
+        <[stringt8c][ICAO][MITE]>
         <[string8][DisplayName][Mooney Mite]>
         <[string8][DisplayNameFull][Mooney M-18C "Mite"]>
-        <[localized_text_list][Descriptions][]
-            <[localized_text][][]
+        <[list_localized_text][Descriptions][]
+            <[localized_text][element][0]
                 <[string8][Language][en]>
                 <[string8][Text][The Mooney M-18 "Mite" is a low-wing, single-place monoplane with retractable, tricycle landing gear. The Mite was designed by Al Mooney and was intended as a personal airplane marketed to fighter pilots returning from World War II. Made by Krzysztof Kaniewski. 3D model: FTLX Designs.]>
             >
-            <[localized_text][][]
+            <[localized_text][element][1]
                 <[string8][Language][de]>
                 <[string8][Text][Die Mooney M-18 "Mite" ist ein Tiefdecker-Einsitzer mit einziehbarem Dreirad-Fahrwerk. Die Mite wurde von Al Mooney entworfen und war als ein persönliches Flugzeug gedacht, das an Kampfpiloten vermarktet wurde, die aus dem Zweiten Weltkrieg zurückkehrten. Hergestellt von Krzysztof Kaniewski. 3D-Modell: FTLX Designs.]>
-            >			
+            >
+            <[localized_text][element][2]
+                <[string8][Language][pl]>
+                <[string8][Text][Mooney M-18 „Mite” to niskopodwoziowy, jednomiejscowy jednopłat z chowanym, trójkołowym podwoziem. Mite został zaprojektowany przez Ala Mooneya i był przeznaczony jako samolot osobisty dla pilotów myśliwców powracających z II wojny światowej. Wykonany przez Krzysztofa Kaniewskiego. Model 3D: FTLX Designs.]>
+			>
         >
         <[float64][MaximumTakeoffMass][354.0]>
         <[float64][WingSpan]          [8.2]>
@@ -140,31 +144,31 @@
 // Normal angles     : -9.0 0.0 0.0  lon lat axi
 // Retracted angles  : -95.0 0.0 0.0  lon lat axi
 // Length [m]: 0.4877 Radius [m]: 0.1707 Semi-width [m]: 0.0610
-// Strut compress [m]: 0.061 
+// Strut compress [m]: 0.061
 // Dep_rat: NaN Scon: 2202.760253906
 // Deflection [m]- zero load : 0.0414 empty :0.0030 max :0.0061
 // Damping constants (lb/(ft/s)) :220.276031494 kg/(m/s) : 327.8068
 //-------------------------------------------------------
-// No 1 LeftWheelHull single  Retracts (1.00 sec) 
+// No 1 LeftWheelHull single  Retracts (1.00 sec)
 // Brakes   Fraction weight: 0.32417 kg :87.0
 // Pivot lon lat vert: -0.158112 0.826008 -0.441960
 // Extended angles   : -9.0 -9.0 0.0  lon lat axi
 // Normal angles     : -9.0 -9.0 0.0  lon lat axi
 // Retracted angles  : -11.0 80.0 0.0  lon lat axi
 // Length [m]: 0.4877 Radius [m]: 0.1707 Semi-width [m]: 0.0610
-// Strut compress [m]: 0.030 
+// Strut compress [m]: 0.030
 // Dep_rat: NaN Scon: 2202.760253906
 // Deflection [m]- zero load : 0.0381 empty :0.0030 max :0.0061
 // Damping constants (lb/(ft/s)) :220.276031494 kg/(m/s) : 327.8068
 //-------------------------------------------------------
-// No 2 RightWheelHull single  Retracts (1.00 sec) 
+// No 2 RightWheelHull single  Retracts (1.00 sec)
 // Brakes   Fraction weight: 0.32347 kg :86.9
 // Pivot lon lat vert: -0.155064 -0.826008 -0.441960
 // Extended angles   : -9.0 9.0 0.0  lon lat axi
 // Normal angles     : -9.0 9.0 0.0  lon lat axi
 // Retracted angles  : -11.0 -80.0 0.0  lon lat axi
 // Length [m]: 0.4877 Radius [m]: 0.1707 Semi-width [m]: 0.0610
-// Strut compress [m]: 0.030 
+// Strut compress [m]: 0.030
 // Dep_rat: NaN Scon: 2202.760253906
 // Deflection [m]- zero load : 0.0380 empty :0.0030 max :0.0061
 // Damping constants (lb/(ft/s)) :220.276031494 kg/(m/s) : 327.8068

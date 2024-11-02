@@ -2201,8 +2201,7 @@
                 <[string8][InputTransform][pilotRotate_5949.Output]>
             >
             <[graphics_linear_interpolation][pilotMapping_5960][]
-        //        <[string8][Input][G_side_Input.Output]>
-                <[string8][Input][RateOfTurnInput.Output]>
+                <[string8][Input][RateOfTurnInput.Output]>  //G_side
                 <[tmvector2d][Map][(-0.1 0.174533)(0.0 0.0)(0.1 -0.174533)]>
             >
             <[graphics_rotation][pilotRotate_5960][]
