@@ -23,7 +23,6 @@
             // cameras start
 
             <[camera][CameraFollow][]
-                <[string8][Description][Behind aircraft]>
                 <[string8][Body][Fuselage]>
                 <[tmvector3d][R0][ -10.0 0.0 1.3 ]>
                 <[tmvector3d][Direction][1.0 0.0 0.0]>
@@ -31,7 +30,7 @@
             <[camera_head][CameraPilot][]
                 <[string8][Tags][cockpit pilot]>
                 <[string8][Body][Fuselage]>
-                <[tmvector3d][R0][ 0.122 0.000 0.317 ]>
+                <[tmvector3d][R0][ 0.07 0.0 0.28 ]>
                 <[tmvector3d][Direction][ 1.0 0.0 0.0 ]>
                 <[float64][Kf][40.0]>
                 <[float64][Df][1.00]>
@@ -2140,19 +2139,19 @@
             // variometer indicator
             <[graphics_input][VariometerInput][]
                 <[string8][InputID][VerticalSpeed.Output]>
-                <[float64][Scaling][196.850394]>
+                <[float64][Scaling][1.968504]>
             >
             <[graphics_linear_interpolation][VariometerMapping][]
                 <[string8][Input][VariometerInput.Output]>
-                <[tmvector2d][Map][(-2000.0 -3.019420)
-                                (-1500.0 -2.268928)
-                                (-1000.0 -1.396264)
-                                (-500.0 -0.610865)
+                <[tmvector2d][Map][(-20.0 -3.019420)
+                                (-15.0 -2.268928)
+                                (-10.0 -1.396264)
+                                (-5.0 -0.610865)
                                 (0.0 0.0)
-                                (500.0 0.610865)
-                                (1000.0 1.396264)
-                                (1500.0 2.268928)
-                                (2000.0 3.019420)]>
+                                (5.0 0.610865)
+                                (10.0 1.396264)
+                                (15.0 2.268928)
+                                (20.0 3.019420)]>
             >
             <[hingedbodygraphics][VariometerNeedle][]
                 <[string8][GeometryList][ Variometerag95418 ]>

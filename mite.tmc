@@ -7,23 +7,23 @@
         <[string8][DisplayNameFull][Mooney M-18C "Mite"]>
         <[list_localized_text][Descriptions][]
             <[localized_text][element][0]
-                <[string8][Language][en]>
+                <[string8u][Language][en]>
                 <[string8][Text][The Mooney M-18 "Mite" is a low-wing, single-place monoplane with retractable, tricycle landing gear. The Mite was designed by Al Mooney and was intended as a personal airplane marketed to fighter pilots returning from World War II. Made by Krzysztof Kaniewski. 3D model: FTLX Designs.]>
             >
             <[localized_text][element][1]
-                <[string8][Language][de]>
+                <[string8u][Language][de]>
                 <[string8][Text][Die Mooney M-18 "Mite" ist ein Tiefdecker-Einsitzer mit einziehbarem Dreirad-Fahrwerk. Die Mite wurde von Al Mooney entworfen und war als ein persönliches Flugzeug gedacht, das an Kampfpiloten vermarktet wurde, die aus dem Zweiten Weltkrieg zurückkehrten. Hergestellt von Krzysztof Kaniewski. 3D-Modell: FTLX Designs.]>
             >
             <[localized_text][element][2]
-                <[string8][Language][pl]>
+                <[string8u][Language][pl]>
                 <[string8][Text][Mooney M-18 „Mite” to niskopodwoziowy, jednomiejscowy jednopłat z chowanym, trójkołowym podwoziem. Mite został zaprojektowany przez Ala Mooneya i był przeznaczony jako samolot osobisty dla pilotów myśliwców powracających z II wojny światowej. Wykonany przez Krzysztofa Kaniewskiego. Model 3D: FTLX Designs.]>
 			>
         >
         <[float64][MaximumTakeoffMass][354.0]>
         <[float64][WingSpan]          [8.2]>
-        <[uint]   [Year]              [1947]>
-        <[uint]   [UnitsBuilt]        [283]>
-        <[uint]   [EngineCount]       [1]>
+        <[uint32] [Year]              [1947]>
+        <[uint32] [UnitsBuilt]        [283]>
+        <[uint32] [EngineCount]       [1]>
         <[float64][EnginePower]       [48470]>
         <[float64][MinimumAirspeed]   [23.0]>
         <[float64][ApproachAirspeed]  [29.9]>
@@ -34,15 +34,17 @@
         <[float64][MaximumAltitude]   [5900.0]>
         <[float64][MaximumSpeed]      [71.5]>
         <[float64][MaximumRange]      [708000.0]>
-        <[tmvector2d][FlapAirspeedRange][ 23.0 42.5 ]>
-        <[tmvector2d][NormalAirspeedRange][ 23.0 57.0 ]>
-        <[tmvector2d][CautionAirspeedRange][ 57.0 71.5 ]>
-        <[tmvector2d][FlapSettings][ (0.0 0.0) (1.0 0.279253) ]>
+        <[vector2_float64][FlapAirspeedRange][ 23.0 42.5 ]>
+        <[vector2_float64][NormalAirspeedRange][ 23.0 57.0 ]>
+        <[vector2_float64]][CautionAirspeedRange][ 57.0 71.5 ]>
+        <[list_vector2_float64][FlapSettings][ (0.0 0.0) (1.0 0.279253) ]>
         <[string8][FlapQualifier][ ]>
         <[string8][Tags][ airplane historical piston flaps general_aviation retractable_gear ]>
         <[string8][Pilot][]>
     >
 >
+
+// https://mooneymite.org/
 
 // General characteristics
 
