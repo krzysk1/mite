@@ -8,7 +8,7 @@
     // This file is FREEWARE. It should not harm your computer, but you install it at your own risk. 
 	// Feel free to copy, modify or distribute it, but if you do, please give me and the original author(s) credit for our modifications. You may not use it for any commercial purposes.
     //
-    // Date: Nov 2022; May 2023; Jan 2024
+    // Date: Nov 2022; May 2023; Jan 2024; Nov 2024
     //-------------------------------------
 
     <[modelmanager][][]
@@ -30,7 +30,7 @@
             <[camera_head][CameraPilot][]
                 <[string8][Tags][cockpit pilot]>
                 <[string8][Body][Fuselage]>
-                <[tmvector3d][R0][ 0.07 0.0 0.28 ]>
+                <[tmvector3d][R0][ 0.05 0.0 0.28 ]>
                 <[tmvector3d][Direction][ 1.0 0.0 0.0 ]>
                 <[float64][Kf][40.0]>
                 <[float64][Df][1.00]>

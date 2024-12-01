@@ -34,11 +34,10 @@
         <[float64][MaximumAltitude]   [5900.0]>
         <[float64][MaximumSpeed]      [71.5]>
         <[float64][MaximumRange]      [708000.0]>
-        <[vector2_float64][FlapAirspeedRange][ 23.0 42.5 ]>
-        <[vector2_float64][NormalAirspeedRange][ 23.0 57.0 ]>
+        <[vector2_float64][FlapAirspeedRange]    [ 23.0 42.5 ]>
+        <[vector2_float64][NormalAirspeedRange]  [ 23.0 57.0 ]>
         <[vector2_float64]][CautionAirspeedRange][ 57.0 71.5 ]>
         <[list_vector2_float64][FlapSettings][ (0.0 0.0) (1.0 0.279253) ]>
-        <[string8][FlapQualifier][ ]>
         <[string8][Tags][ airplane historical piston flaps general_aviation retractable_gear ]>
         <[string8][Pilot][]>
     >
