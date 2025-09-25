@@ -12,8 +12,30 @@
 			
 			// transponder
 			
-			// canopy handle    0.3226 0.0 0.3938   box 0.045 0.02 0.01
-							
+			// canopy handle
+            <[control_input][CanopyHandleInput][]
+                <[uint32][InputID][CanopySequence.Output]>
+                <[float64][Scaling][0.500401]>
+            >
+            <[control_translation][CanopyHandleTranslation][]
+                <[string8][Input][CanopyHandleInput.Output]>
+                <[tmvector3d][Axis][-1.0 0.0 0.0]>
+            >			
+            <[control_box][CanopyHandle][]
+                <[string8][Type][switch toggle]>
+                <[vector3_float64][R0][0.3226 0.0 0.3938]>
+                <[matrix3_float64][B0][ 1.0 0.0 0.0  0.0 1.0 0.0  0.0 0.0 1.0 ]>
+                <[vector3_float64][Direction][ -1.0 0.0 0.0 ]>
+                <[string8][InputTransform][CanopyHandleTranslation.Output]>
+                <[float64][StepDistance][0.002]>
+                <[control_message][OnStep][]
+                    <[string8][Message][Controls.Canopy]>
+                    <[string8][Qualifiers][step]>
+                    <[float64][Value][1.0]>
+                >
+                <[vector3_float64][Dimensions][0.045 0.02 0.01]>
+            >
+			
 			// barometer setting	
             <[control_cylinder][PressureSetting][]
                 <[string8][Type][knob]>

@@ -8,7 +8,7 @@
     // This file is FREEWARE. It should not harm your computer, but you install it at your own risk. 
 	// Feel free to copy, modify or distribute it, but if you do, please give me and the original author(s) credit for our modifications. You may not use it for any commercial purposes.
     //
-    // Date: Nov 2022; May 2023; Jan 2024; Nov 2024
+    // Date: Nov 2022; May 2023; Jan 2024; Nov 2024; Sep 2025
     //-------------------------------------
 
     <[modelmanager][][]
@@ -39,14 +39,14 @@
                 <[bool][InCockpit][true]>
             >
             <[camera][CameraLeftWing][]
-                <[string8][Tags][left wing]>
+                <[string8][Tags][fuselage wing left]>
                 <[string8][Body][Fuselage]>
                 <[tmvector3d][R0][ 2.810 4.089 -0.937 ]>
                 <[tmvector3d][Direction][ -0.7015 -0.6947 0.1591 ]>
                 <[bool][InCockpit][false]>
             >
             <[camera][CameraRightWing][]
-                <[string8][Tags][right wing]>
+                <[string8][Tags][fuselage wing right]>
                 <[string8][Body][Fuselage]>
                 <[tmvector3d][R0][ -3.001 -4.089 1.000 ]>
                 <[tmvector3d][Direction][ 0.3709 0.9021 -0.2206 ]>
@@ -60,7 +60,7 @@
                 <[bool][InCockpit][false]>
             >
             <[camera][CameraTail][]
-                <[string8][Tags][tail]>
+                <[string8][Tags][tail stabilizer]>
                 <[string8][Body][Fuselage]>
                 <[tmvector3d][R0][ -4.001 0.000 1.667 ]>
                 <[tmvector3d][Direction][ 0.8493 0.0000 -0.5280 ]>
@@ -1136,7 +1136,6 @@
                 <[string8][Input][CanopySequence.Output]>
             >
 
-
             // animations end
 
 
@@ -1468,7 +1467,7 @@
         <[pointer_list_tmgraphics][GraphicObjects][]
 
             <[rigidbodygraphics][Fuselage][]
-                <[string8][GeometryList][ M18c019 M18c01286029 M18c01382419 M18c01378939 M18cglass10511 M18cglass10511int M18cglass69311 ]>
+                <[string8][GeometryList][ M18c019 M18c01286029 M18c01382419 M18c01378939 M18cglass11 M18cglass11int M18cglass69311 ]>
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][OrientationID][Fuselage.Q]>
             >
@@ -1740,7 +1739,7 @@
             <[movinggraphics][Canopy][]
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][OrientationID][Fuselage.Q]>
-                <[string8][GeometryList][ M18c01363579 M18cglass11 M18cglass11int ]>
+                <[string8][GeometryList][ M18c01363579 M18c021401610 M18cglass10511 M18cglass10511int ]>
                 <[tmvector3d][Axis][-1.0 0.0 0.0]>
                 <[uint32][InputID][CanopySequence.Output]>
                 <[float64][Scaling][0.500401]>
@@ -1773,7 +1772,7 @@
                 <[tmvector3d][Color][ 1.2 1.2 1.2 ]>
             >
             <[rigidbodygraphics][CockpitInterior][]
-                <[string8][GeometryList][ M18c0210 M18c02612610 M18c02678610 M18c02744610 M18c02810610 M18c02876610 M18c02933010 M18c02949810 M18c02966610 M18c02983410 M18c021000210 M18c021017010 M18c021033810 M18c021050610 M18c021079410 M18c021108210 M18c021109410 M18c021110610 M18c021201810 M18c021295410 M18c021299010 M18c021401610 M18c021438810 M18c021588810 M18c021620010 M18c021782010 M18c021801210 M18c021828810 M18c021834210 M18c021854610 M18c021875010 M18c021895410 M18cpanels12 M18cpanels13812 ]>
+                <[string8][GeometryList][ M18c0210 M18c02612610 M18c02678610 M18c02744610 M18c02810610 M18c02876610 M18c02933010 M18c02949810 M18c02966610 M18c02983410 M18c021000210 M18c021017010 M18c021033810 M18c021050610 M18c021079410 M18c021108210 M18c021109410 M18c021110610 M18c021201810 M18c021295410 M18c021299010 M18c021438810 M18c021588810 M18c021620010 M18c021782010 M18c021801210 M18c021828810 M18c021834210 M18c021854610 M18c021875010 M18c021895410 M18cpanels12 M18cpanels13812 ]>
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][OrientationID][Fuselage.Q]>
             >
@@ -1783,7 +1782,7 @@
             >
             <[graphics_linear_interpolation][CanopyHandleMapping][]
                 <[string8][Input][CanopyOpenRatioInput.Output]>
-                <[tmvector2d][Map][(0.05 1.047198) (0.1 1.570797)]>
+                <[tmvector2d][Map][(0.0 0.0) (0.05 1.047198) (0.1 1.570797)]>
             >
             <[hingedbodygraphics][CanopyHandle][]
                 <[string8][GeometryList][ M18c021410010 ]>
